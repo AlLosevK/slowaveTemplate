@@ -1,0 +1,38 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    width: 1170px;
+}
+
+header{
+    background-color: #313b46;
+}
+
+.header-logo{
+    display: block;
+    float: left;
+}
+
+.main-nav{
+    text-decoration: none;
+    display: block;
+    float: right;
+}
+
+.main-nav li{
+    display: inline-block;
+    padding-right: 50px;    
+}
+
+.main-nav a{    
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.main-nav a:hover{    
+    color: #fff;
+}

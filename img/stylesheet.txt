@@ -1,0 +1,137 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-Fill {
+    width: 9px;
+    height: 13px;
+    background-position: -6px -6px;
+}
+
+.sprite-Layer-13 {
+    width: 16px;
+    height: 16px;
+    background-position: -27px -6px;
+}
+
+.sprite-Layer-21 {
+    width: 30px;
+    height: 48px;
+    background-position: -55px -6px;
+}
+
+.sprite-Layer-22 {
+    width: 44px;
+    height: 48px;
+    background-position: -97px -6px;
+}
+
+.sprite-Layer-23 {
+    width: 36px;
+    height: 48px;
+    background-position: -153px -6px;
+}
+
+.sprite-Layer-24 {
+    width: 34px;
+    height: 56px;
+    background-position: -6px -66px;
+}
+
+.sprite-Layer-25 {
+    width: 48px;
+    height: 46px;
+    background-position: -52px -66px;
+}
+
+.sprite-Layer-26 {
+    width: 48px;
+    height: 48px;
+    background-position: -112px -66px;
+}
+
+.sprite-Layer-27 {
+    width: 42px;
+    height: 48px;
+    background-position: -52px -126px;
+}
+
+.sprite-Layer-28 {
+    width: 48px;
+    height: 48px;
+    background-position: -106px -126px;
+}
+
+.sprite-Layer-29 {
+    width: 48px;
+    height: 33px;
+    background-position: -201px -6px;
+}
+
+.sprite-Layer-30 {
+    width: 48px;
+    height: 48px;
+    background-position: -201px -51px;
+}
+
+.sprite-Layer-31 {
+    width: 16px;
+    height: 16px;
+    background-position: -172px -111px;
+}
+
+.sprite-Layer-33 {
+    width: 16px;
+    height: 16px;
+    background-position: -200px -111px;
+}
+
+.sprite-Layer-38 {
+    width: 20px;
+    height: 32px;
+    background-position: -228px -111px;
+}
+
+.sprite-Layer-39 {
+    width: 20px;
+    height: 32px;
+    background-position: -6px -155px;
+}
+
+.sprite-Layer-40 {
+    width: 24px;
+    height: 32px;
+    background-position: -166px -155px;
+}
+
+.sprite-Layer-41 {
+    width: 30px;
+    height: 32px;
+    background-position: -202px -155px;
+}
+
+.sprite-Layer-42 {
+    width: 16px;
+    height: 16px;
+    background-position: -244px -155px;
+}
+
+.sprite-Logo {
+    width: 40px;
+    height: 40px;
+    background-position: -6px -199px;
+}
+
+.sprite-Message-small {
+    width: 12px;
+    height: 8px;
+    background-position: -244px -183px;
+}
+
+.sprite-Phone {
+    width: 10px;
+    height: 11px;
+    background-position: -58px -203px;
+}

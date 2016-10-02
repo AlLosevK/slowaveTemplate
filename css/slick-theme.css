@@ -88,7 +88,7 @@
 }
 .slick-prev:before
 {
-    content: 'и';
+    content: '←';
 }
 [dir='rtl'] .slick-prev:before
 {
@@ -106,7 +106,7 @@
 }
 .slick-next:before
 {
-    content: 'и';
+    content: '→';
 }
 [dir='rtl'] .slick-next:before
 {

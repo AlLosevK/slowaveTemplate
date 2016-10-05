@@ -1,0 +1,53 @@
+.pages-sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.pages-sprite-Layer-21-blue {
+    width: 30px;
+    height: 48px;
+    background-position: -6px -6px;
+}
+
+.pages-sprite-Layer-21-gray {
+    width: 30px;
+    height: 48px;
+    background-position: -48px -6px;
+}
+
+.pages-sprite-Layer-22-blue {
+    width: 44px;
+    height: 48px;
+    background-position: -90px -6px;
+}
+
+.pages-sprite-Layer-22-gray {
+    width: 44px;
+    height: 48px;
+    background-position: -6px -66px;
+}
+
+.pages-sprite-Layer-23-blue {
+    width: 36px;
+    height: 48px;
+    background-position: -62px -66px;
+}
+
+.pages-sprite-Layer-23-gray {
+    width: 36px;
+    height: 48px;
+    background-position: -110px -66px;
+}
+
+.pages-sprite-Layer-24-blue {
+    width: 34px;
+    height: 56px;
+    background-position: -158px -6px;
+}
+
+.pages-sprite-Layer-24-gray {
+    width: 34px;
+    height: 56px;
+    background-position: -158px -74px;
+}

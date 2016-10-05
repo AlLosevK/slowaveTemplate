@@ -3,28 +3,28 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,800" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/slick.css" />
     <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="css/style.css">
     <title>Slowave</title>
 </head>
 
 <body>
-    <a href="#" id="top">Наверх</a>
     <header class="page-header">
         <div class="container">
             <a href="" class="header-logo"><img src="img/header-logo.png" alt="" class="header-logo-img">slowave</a>
             <nav>
                 <ul class="main-nav">
-                    <li><a href="#home">home</a></li>
-                    <li><a href="#pages">pages</a></li>
-                    <li><a href="#journal">journal</a></li>
-                    <li><a href="#portfolio">portfolio</a></li>
-                    <li><a href="#features">features</a></li>
-                    <li><a href="#contacts">contacts</a></li>
+                    <li><a href="#home" class="header-button-home">home</a></li>
+                    <li><a href="#pages" class="header-button-pages">pages</a></li>
+                    <li><a href="#journal" class="header-button-journal">journal</a></li>
+                    <li><a href="#portfolio" class="header-button-portfolio">portfolio</a></li>
+                    <li><a href="#features" class="header-button-features">features</a></li>
+                    <li><a href="#contacts" class="header-button-contacts">contacts</a></li>
                 </ul>
             </nav>
         </div>
@@ -37,17 +37,25 @@
                 <a href="#portfolio" class="home-link-portfolio">see portfolio</a>
             </div>
         </section>
-        <section id="pages" class="pages">
+        <section id="pages" class="pages active">
             <div class="container">
                 <h2 class="pages-title"><span class="pages-title-keyword">Creativity</span> is important for us</h2>
-                <p class="pages-descr">Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet magna. Duis mollis, est non commodo luctus, nisi erat porttitor ligula eget lacinia odio nec elit.</p>
+                <div class="pages-cont">
+                    <p class="pages-descr pages-descr-ideas">Tempora incidunt, exercitationem delectus vel nihil qui aut accusamus nam sapiente nemo earum sunt beatae facere. Repellendus, deleniti!</p>
+
+                    <p class="pages-descr pages-descr-solution">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In fugiat distinctio nulla vitae, quisquam similique sunt excepturi aperiam illum mollitia, illo veritatis veniam ut quaerat sapiente adipisci, quibusdam, praesentium accusamus consequatur delectus aspernatur.</p>
+
+                    <p class="pages-descr pages-descr-touch">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta fugit, voluptas aliquam ab sapiente quia!</p>
+
+                    <p class="pages-descr pages-descr-winning">Duis mollis, est non commodo luctus, nisi erat porttitor ligula eget lacinia odio nec elit.</p>
+                </div>
                 <div class="pages-line">
                 </div>
                 <div class="row">
-                    <div class="active pages-item pages-item-1 col-md-3">creative ideas</div>
-                    <div class="pages-item pages-item-2 col-md-3">rapid solution</div>
-                    <div class="pages-item pages-item-3 col-md-3">magic touch</div>
-                    <div class="pages-item pages-item-4 col-md-3">Award Winning</div>
+                    <div class="pages-item pages-item-ideas col-md-3 active">creative ideas</div>
+                    <div class="pages-item pages-item-solution col-md-3">rapid solution</div>
+                    <div class="pages-item pages-item-touch col-md-3">magic touch</div>
+                    <div class="pages-item pages-item-winning col-md-3">Award Winning</div>
                 </div>
             </div>
         </section>
@@ -55,30 +63,30 @@
             <div class="portfolio-1">
                 <div class="container">
                     <h2 class="portfolio-title title-underline">what do we do</h2>
-                    <div class="row">
-                        <div class="col-md-4 portfolio-article portfolio-article-1">
+                    <div class="row portfolio-row-top">
+                        <div class="col-md-4 portfolio-article portfolio-article-print">
                             <h3 class="porfolio-article-title">print design</h3>
                             <p class="portfolio-article-content">Sed posuere consectetur est. Maecenas sed diam eget risus varius blandit sit amet nonet magna. Integer posuere erat a ante.</p>
                         </div>
-                        <div class="col-md-4 portfolio-article portfolio-article-2">
+                        <div class="col-md-4 portfolio-article portfolio-article-motion">
                             <h3 class="porfolio-article-title">motion video</h3>
                             <p class="portfolio-article-content">Sed posuere consectetur est. Maecenas sed diam eget risus varius blandit sit amet nonet magna. Integer posuere erat a ante.</p>
                         </div>
-                        <div class="col-md-4 portfolio-article portfolio-article-3">
+                        <div class="col-md-4 portfolio-article portfolio-article-package">
                             <h3 class="porfolio-article-title">package design</h3>
                             <p class="portfolio-article-content">Sed posuere consectetur est. Maecenas sed diam eget risus varius blandit sit amet nonet magna. Integer posuere erat a ante.</p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-4 portfolio-article portfolio-article-4">
+                    <div class="row portfolio-row-bottom">
+                        <div class="col-md-4 portfolio-article portfolio-article-sound">
                             <h3 class="porfolio-article-title">sound engineering</h3>
                             <p class="portfolio-article-content">Sed posuere consectetur est. Maecenas sed diam eget risus varius blandit sit amet nonet magna. Integer posuere erat a ante.</p>
                         </div>
-                        <div class="col-md-4 portfolio-article portfolio-article-5">
+                        <div class="col-md-4 portfolio-article portfolio-article-time">
                             <h3 class="porfolio-article-title">time management</h3>
                             <p class="portfolio-article-content">Sed posuere consectetur est. Maecenas sed diam eget risus varius blandit sit amet nonet magna. Integer posuere erat a ante.</p>
                         </div>
-                        <div class="col-md-4 portfolio-article portfolio-article-6">
+                        <div class="col-md-4 portfolio-article portfolio-article-illustration">
                             <h3 class="porfolio-article-title">illustration</h3>
                             <p class="portfolio-article-content">Sed posuere consectetur est. Maecenas sed diam eget risus varius blandit sit amet nonet magna. Integer posuere erat a ante.</p>
                         </div>
@@ -152,26 +160,26 @@
         <section id="features" class="features">
             <div class="container">
                 <h2 class="features-title title-underline">steps in our works</h2>
-                <div class="row">
-                    <div class="col-md-3 col-md-push-6 features-step features-step-1">
+                <div class="row features-row">
+                    <div class="col-md-3 col-md-push-6 features-step features-step-ideas">
                         <h3 class="features-step-title">creative ideas</h3>
                         <p class="features-step-content">Aenean leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum posuere consectetur.</p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-3 col-md-push-3 features-step features-step-2">
+                <div class="row features-row">
+                    <div class="col-md-3 col-md-push-3 features-step features-step-solution">
                         <h3 class="features-step-title">rapid solution</h3>
                         <p class="features-step-content">Aenean leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum posuere consectetur.</p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-3 col-md-push-6 features-step features-step-3">
+                <div class="row features-row">
+                    <div class="col-md-3 col-md-push-6 features-step features-step-touch">
                         <h3 class="features-step-title">magic touch</h3>
                         <p class="features-step-content">Aenean leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum posuere consectetur.</p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-3 col-md-push-3 features-step features-step-4">
+                <div class="row features-row">
+                    <div class="col-md-3 col-md-push-3 features-step features-step-winning">
                         <h3 class="features-step-title">Award Winning</h3>
                         <p class="features-step-content">Aenean leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum posuere consectetur.</p>
                     </div>
@@ -256,8 +264,10 @@
             </div>
         </div>
     </footer>
+    <a href="#home" id="top">Наверх</a>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollTo-min.js"></script>
     <script src="js/script.js"></script>
 </body>
 

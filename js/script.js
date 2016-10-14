@@ -6,6 +6,14 @@ $(document).ready(function () {
     });
 });
 
+$(document).ready(function () {
+    $('.portfolio-slider-xs').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    });
+});
+
 $(function () {
     $('a[href*="#"]:not([href="#"])').click(function () {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -28,22 +36,22 @@ $(document).ready(function () {
         $(this).addClass('active');
         
         if($('.pages-item-ideas').hasClass("active")){
-            $('.pages-descr').fadeOut();
-            $('.pages-descr-ideas').fadeIn();
+            $('.pages-descr').fadeOut(0);
+            $('.pages-descr-ideas').fadeIn(10);
         }
         
         if($('.pages-item-solution').hasClass("active")){
-            $('.pages-descr').fadeOut();
+            $('.pages-descr').fadeOut(0);
             $('.pages-descr-solution').fadeIn();
         }
         
         if($('.pages-item-touch').hasClass("active")){
-            $('.pages-descr').fadeOut();
+            $('.pages-descr').fadeOut(0);
             $('.pages-descr-touch').fadeIn();
         }
         
         if($('.pages-item-winning').hasClass("active")){
-            $('.pages-descr').fadeOut();
+            $('.pages-descr').fadeOut(0);
             $('.pages-descr-winning').fadeIn();
         }
     })

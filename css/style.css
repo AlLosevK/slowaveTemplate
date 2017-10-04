@@ -22,6 +22,7 @@
     border-radius: 10px;
     z-index: 1000000000000;
     opacity: 1;
+    display: none;
 }
 
 body {
@@ -115,6 +116,8 @@ body {
 
 .home-link-portfolio:hover {
     text-decoration: none;
+    color: #fff;
+    background-color: #5abfff;
 }
 
 .pages {
@@ -216,7 +219,8 @@ body {
     content: '';
     width: 34px;
     height: 56px;
-    background-position: -158px -6px;
+    background-size: 500% 190%;
+    background-position: -133px 2px;
 }
 
 .pages-item-touch.active:after {
@@ -237,7 +241,8 @@ body {
     content: '';
     width: 34px;
     height: 56px;
-    background-position: -158px -74px;
+    background-size: 500% 190%;
+    background-position: -303px -52px;
 }
 
 .pages-item-touch:after {
@@ -305,7 +310,7 @@ body {
     content: '';
     position: absolute;
     top: 5%;
-    left: 15%;
+    left: 12%;
     transform: translate(-50%, 0);
     background-image: url('../img/spritesheet.png');
     width: 48px;
@@ -317,7 +322,7 @@ body {
     content: '';
     position: absolute;
     top: 5%;
-    left: 15%;
+    left: 12%;
     transform: translate(-50%, 0);
     background-image: url('../img/spritesheet.png');
     width: 42px;
@@ -329,7 +334,7 @@ body {
     content: '';
     position: absolute;
     top: 5%;
-    left: 15%;
+    left: 12%;
     transform: translate(-50%, 0);
     background-image: url('../img/spritesheet.png');
     width: 48px;
@@ -341,7 +346,7 @@ body {
     content: '';
     position: absolute;
     top: 5%;
-    left: 15%;
+    left: 12%;
     transform: translate(-50%, 0);
     background-image: url('../img/spritesheet.png');
     width: 48px;
@@ -353,7 +358,7 @@ body {
     content: '';
     position: absolute;
     top: 5%;
-    left: 15%;
+    left: 12%;
     transform: translate(-50%, 0);
     background-image: url('../img/spritesheet.png');
     width: 48px;
@@ -365,7 +370,7 @@ body {
     content: '';
     position: absolute;
     top: 5%;
-    left: 15%;
+    left: 12%;
     transform: translate(-50%, 0);
     background-image: url('../img/spritesheet.png');
     width: 48px;
@@ -485,23 +490,22 @@ body {
 }
 
 .journal-article {
-    text-align: left;
     margin-bottom: 50px;
 }
 
 .article-image {
-    height: 150px;
-    width: 150px;
+    width: 28%;
     display: inline-block;
     padding: 0;
     vertical-align: top;
-    margin-right: 25px;
+    margin: 0 25px 15px 0;
 }
 
 .article-content {
     display: inline-block;
     width: 270px;
     vertical-align: top;
+    text-align: left;
 }
 
 .article-title {
@@ -569,7 +573,7 @@ body {
     content: '';
     position: absolute;
     top: 20px;
-    left: 15%;
+    left: 12%;
     background-image: url('../img/spritesheet.png');
     width: 20px;
     height: 32px;
@@ -617,7 +621,7 @@ body {
     content: '';
     position: absolute;
     top: 20px;
-    left: 15%;
+    left: 12%;
     background-image: url('../img/spritesheet.png');
     width: 24px;
     height: 32px;
@@ -716,19 +720,19 @@ body {
 }
 
 .contacts-form input::-webkit-input-placeholder {
-    color: #a1a1a1;
+    color: #8a8a8a;
     font-size: 14px;
     text-decoration: underline;
 }
 
 .contacts-form input:-moz-placeholder {
-    color: #a1a1a1;
+    color: #8a8a8a;
     font-size: 14px;
     text-decoration: underline;
 }
 
 .contacts-form input:-ms-placeholder {
-    color: #a1a1a1;
+    color: #8a8a8a;
     font-size: 14px;
     text-decoration: underline;
 }
@@ -744,23 +748,23 @@ body {
     padding: 18px 0 0 14px;
     border: none;
     margin-bottom: 15px;
-    color: #a1a1a1;
+    color: #fff;
 }
 
 .contacts-form .subject::-webkit-input-placeholder {
-    color: #fff;
+    color: #8a8a8a;
     font-size: 14px;
     text-decoration: underline;
 }
 
 .contacts-form .subject:-moz-placeholder {
-    color: #fff;
+    color: #8a8a8a;
     font-size: 14px;
     text-decoration: underline;
 }
 
 .contacts-form .subject:-ms-placeholder {
-    color: #fff;
+    color: #8a8a8a;
     font-size: 14px;
     text-decoration: underline;
 }
@@ -870,19 +874,24 @@ body {
 }
 
 .footer-info-post {
-    margin: 0 0 15px 0;
+    margin: 0 0 5px 0;
     padding: 0;
 }
 
 .footer-info-cite {
     display: block;
-    margin: 0 0 15px 0;
+    margin: 0 0 25px 0;
     padding: 0;
 }
 
 .footer-copyright {
     background-color: #292929;
     padding: 35px 0;
+}
+@media screen and (max-width:1064px) {
+    .article-content{
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:992px) {
@@ -930,12 +939,9 @@ body {
         height: auto;
         width: 100%;
     }
-    .journal-article {
-        text-align: center;
-    }
     .article-image {
         height: auto;
-        width: 100%;
+        width: 60%;
     }
     .features-md {
         display: none;
@@ -1007,6 +1013,9 @@ body {
     }
     .home-subtitle{
         display: none;
+    }
+    .pages-line{
+        width: 82%;
     }
     .portfolio-article {
         margin: 0 0 5% 0;

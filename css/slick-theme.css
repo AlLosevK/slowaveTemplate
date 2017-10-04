@@ -78,7 +78,7 @@
 
 .slick-prev
 {
-    left: -25px;
+    left: -40px;
     background-image: url('../img/slider-arrow.png');
     background-repeat: no-repeat;
     transform: rotate(180deg);
@@ -91,7 +91,7 @@
 }
 [dir='rtl'] .slick-prev
 {
-    right: -25px;
+    right: -40px;
     left: auto;
 }
 .slick-prev:before
@@ -112,7 +112,7 @@
 
 .slick-next
 {
-    right: -25px;
+    right: -40px;
     background-image: url('../img/slider-arrow.png');
     background-repeat: no-repeat;
     width: 35px;
@@ -125,7 +125,7 @@
 [dir='rtl'] .slick-next
 {
     right: auto;
-    left: -25px;
+    left: -40px;
 }
 .slick-next:before
 {

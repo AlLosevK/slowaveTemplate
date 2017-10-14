@@ -49,6 +49,7 @@ body {
     color: #fff;
     text-decoration: none;
     opacity: 1;
+    margin-top: 0.3%;
 }
 
 .header-logo:hover {
@@ -471,6 +472,13 @@ body {
     text-transform: uppercase;
     padding: 10px;
     border: 1px solid #b9b9b9;
+    transition-duration: 2s;
+}
+
+.our-project-link:hover {
+    color: #3f8dbf;
+    border: 1px solid #3f8dbf;
+    text-decoration: none;
 }
 
 .journal {
@@ -522,6 +530,20 @@ body {
     margin: 0;
     line-height: 24px;
     margin-bottom: 20px;
+}
+
+.read-article{
+    margin: 5px 10px;
+}
+
+.read-article:hover{
+    margin: 0;
+    padding: 5px 10px;
+    border-radius: 8px;
+    background-color: #3f8dbf;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    color: #fff;
 }
 
 .features {

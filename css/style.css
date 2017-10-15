@@ -548,9 +548,21 @@ body {
 
 .features {
     background-color: #fbfbfb;
-    text-align: center;
     padding: 60px 0 80px 0;
     position: relative;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    justify-content: space-around;
+    -ms-align-items: center;
+    align-items: center;
 }
 
 .features:before {
@@ -589,6 +601,7 @@ body {
 .features-step {
     padding-top: 70px;
     position: relative;
+    flex: 0 0 100%;
 }
 
 .features-step-ideas:after {
@@ -700,11 +713,6 @@ body {
     color: #7f7f7f;
     text-align: left;
     margin: 0;
-}
-
-.features-row:nth-of-type(2n) .features-step-content,
-.features-row:nth-of-type(2n) .features-step-title {
-    text-align: right;
 }
 
 .contacts {
@@ -1059,17 +1067,10 @@ body {
     .features:before {
         display: none;
     }
-    .features-step {
-        padding: 20 0 0 0;
-    }
     .features-step-title {
         text-align: center;
     }
     .features-step-content {
-        text-align: center;
-    }
-    .features-row:nth-of-type(2n) .features-step-content,
-    .features-row:nth-of-type(2n) .features-step-title {
         text-align: center;
     }
     .features-step-ideas:after,
